@@ -5,3 +5,8 @@
     flex-basis: auto; /* default value */
 
 }
+
+.el {
+    padding: 5px;
+    cursor: pointer;
+}

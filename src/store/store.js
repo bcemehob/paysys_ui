@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import walletReducer from './walletSlice';
+import paymentSystemReducer from './paymentSystemSlice';
 
 export const store = configureStore({
   reducer: {
-    wallet: walletReducer
+    paymentSystem: paymentSystemReducer
   },
 });
